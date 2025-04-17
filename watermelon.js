@@ -20,9 +20,14 @@
 // YES
 // Note
 // For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively (another variant — two parts of 4 and 4 kilos).
-let w = 8;
+"use strict";
+
+let w = parseInt(readline());
+
 if (w % 2 === 0 && w > 2) {
-    console.log('YES');
+    print("YES");
+} else {
+    print("NO");
 }
-else { console.log('NO'); }
+
 
